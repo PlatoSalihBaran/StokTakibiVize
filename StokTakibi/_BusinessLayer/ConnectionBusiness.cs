@@ -10,7 +10,7 @@ namespace _BusinessLayer
     class ConnectionBusiness
     {
         private SqlConnection bgl;
-        private string bglm = "Data Source=BARAN\\BARAN;Initial Catalog=StokTakibi;Integrated Security=True";
+        private string bglm = "Data Source=BARAN\\BARAN;Initial Catalog=StokTakibi2;Integrated Security=True";
 
         public SqlConnection OpenConnection()
         {

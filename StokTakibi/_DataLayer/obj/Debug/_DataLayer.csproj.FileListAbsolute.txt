@@ -7,3 +7,4 @@ C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\bin\Debug\_D
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\bin\Debug\_DataLayer.pdb
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.dll
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache

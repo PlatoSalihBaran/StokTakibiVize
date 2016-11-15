@@ -9,15 +9,19 @@ namespace _DataLayer
     public class Urun
     {
 
-        public Urun(int U_ID, string U_Adi, string U_Barkod, decimal U_Fiyat, int U_StokAdet)
+        public Urun(int U_ID, string U_Barkod, string U_Adi, decimal U_Fiyat, int U_StokAdet)
         {
-            this.U_Adi = U_Adi;
             this.U_Barkod = U_Barkod;
+            this.U_Adi = U_Adi;
             this.U_Fiyat = U_Fiyat;
             this.U_StokAdet = U_StokAdet;
         }
 
-        public int U_ID { get; set; }
+        public Urun(string U_Barkod)
+        {
+            this.U_Barkod = U_Barkod;
+        }
+
         public string U_Adi { get; set; }
         public string  U_Barkod { get; set; }
         public decimal U_Fiyat { get; set; }
