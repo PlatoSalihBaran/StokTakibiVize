@@ -22,8 +22,16 @@ namespace _PresentationLayer
         private void HomeForm_Load(object sender, EventArgs e)
         {
             stomasyonhomeList.DataSource = ub.Listele();
-            us.LoginAc();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["Urunler"] == null)
+            {
+                Urunler urunler = new Urunler();
+                urunler.Show();
+            }
         }
     }
 }

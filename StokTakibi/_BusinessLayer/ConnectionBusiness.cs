@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace _BusinessLayer
 {
-    class ConnectionBusiness
+    public class ConnectionBusiness
     {
         private SqlConnection bgl;
-        private string bglm = "Data Source=BARAN\\BARAN;Initial Catalog=StokTakibi2;Integrated Security=True";
+        private string bglm = "Data Source=BARAN\\BARAN;Initial Catalog=StokTakibii;Integrated Security=True";
 
         public SqlConnection OpenConnection()
         {

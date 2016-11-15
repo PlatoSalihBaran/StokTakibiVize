@@ -15,11 +15,11 @@ C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.HomeForm.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Properties.Resources.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
-C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.UserLogin.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.BaseForm.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_BusinessLayer.dll
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_DataLayer.dll
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_BusinessLayer.pdb
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Kullanicilar.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Urunler.resources

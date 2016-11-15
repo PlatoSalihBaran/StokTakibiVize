@@ -16,7 +16,7 @@ namespace _PresentationLayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Urunler());
+            Application.Run(new HomeForm());
         }
     }
 }

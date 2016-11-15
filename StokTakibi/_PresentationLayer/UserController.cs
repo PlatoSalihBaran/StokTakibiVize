@@ -9,10 +9,5 @@ namespace _PresentationLayer
 {
     class UserController
     {
-        public void LoginAc()
-        {
-            UserLogin ul = new UserLogin();
-            ul.ShowDialog();
-        }
     }
 }
