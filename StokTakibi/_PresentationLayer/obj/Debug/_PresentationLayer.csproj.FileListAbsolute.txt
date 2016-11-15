@@ -7,3 +7,13 @@ C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_PresentationLayer\obj\
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.exe
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_PresentationLayer.exe.config
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.exe
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_PresentationLayer.exe
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_PresentationLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.HomeForm.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Properties.Resources.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.UserLogin.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.BaseForm.resources

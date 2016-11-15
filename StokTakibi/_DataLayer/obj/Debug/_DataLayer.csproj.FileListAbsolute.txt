@@ -3,3 +3,7 @@ C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_DataLayer\bin\Debug\_D
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.csprojResolveAssemblyReference.cache
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.dll
 C:\Users\Salih\Desktop\vs\vize\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\bin\Debug\_DataLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_DataLayer\obj\Debug\_DataLayer.pdb

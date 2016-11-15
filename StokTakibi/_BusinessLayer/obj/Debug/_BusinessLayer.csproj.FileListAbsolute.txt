@@ -1,0 +1,4 @@
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_BusinessLayer\bin\Debug\_BusinessLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_BusinessLayer\bin\Debug\_BusinessLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_BusinessLayer\obj\Debug\_BusinessLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_BusinessLayer\obj\Debug\_BusinessLayer.pdb

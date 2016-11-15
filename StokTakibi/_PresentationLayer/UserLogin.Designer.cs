@@ -1,6 +1,6 @@
 ﻿namespace _PresentationLayer
 {
-    partial class Form1
+    partial class UserLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -57,6 +57,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(132, 71);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(139, 27);
             this.txtPassword.TabIndex = 1;
             // 
@@ -95,7 +96,7 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Uygulama:";
             // 
-            // Form1
+            // UserLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,8 +110,12 @@
             this.Controls.Add(this.btnEnter);
             this.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "Form1";
+            this.Name = "UserLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kullanıcı Girişi";
+            this.TopMost = true;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UserLogin_FormClosed);
+            this.Load += new System.EventHandler(this.UserLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
