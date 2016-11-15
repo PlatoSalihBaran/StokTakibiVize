@@ -42,6 +42,13 @@
   <ItemGroup>
     <Compile Include="ConnectionBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrunBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_DataLayer\_DataLayer.csproj">
+      <Project>{ac53c522-d0f7-4732-a0ab-b8b018730de9}</Project>
+      <Name>_DataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

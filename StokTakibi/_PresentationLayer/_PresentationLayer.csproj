@@ -52,6 +52,12 @@
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urunler.Designer.cs">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserController.cs" />
     <Compile Include="HomeForm.cs">
       <SubType>Form</SubType>
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urunler.resx">
+      <DependentUpon>Urunler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
@@ -97,6 +106,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_BusinessLayer\_BusinessLayer.csproj">
+      <Project>{bf8788af-2303-4760-9178-759155aa25c9}</Project>
+      <Name>_BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_DataLayer\_DataLayer.csproj">
+      <Project>{ac53c522-d0f7-4732-a0ab-b8b018730de9}</Project>
+      <Name>_DataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,3 +18,8 @@ C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.UserLogin.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.BaseForm.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_BusinessLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_DataLayer.dll
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_BusinessLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_DataLayer.pdb
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Urunler.resources
