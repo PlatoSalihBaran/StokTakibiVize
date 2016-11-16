@@ -30,6 +30,8 @@ namespace _PresentationLayer
         private void Urunler_Load(object sender, EventArgs e)
         {
             stomasyonurunlerList.DataSource = ub.Listele();
+            timer1.Interval = 5000;
+            timer1.Enabled = true;
         }
 
         private void stomasyonurunlerList_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -50,18 +52,18 @@ namespace _PresentationLayer
             btnGuncelle.Enabled = true;
         }
 
+
         private void btnArttir_Click(object sender, EventArgs e)
         {
-            ub.StokArttir(new Urun(txtBarkod.Text));
-            stomasyonurunlerList.DataSource = ub.Listele();
-            int stok = Convert.ToInt32(txtStok.Text) + 1;
-            txtStok.Text = stok.ToString();
+            StokEkle se = new StokEkle();
+            se.barkod = txtBarkod.Text;
+            se.Show();
         }
 
 
         private void bnGuncelle_Click(object sender, EventArgs e)
         {
-            ub.Duzenle(new Urun(txtBarkod.Text.ToString(),txtAdi.Text.ToString(),Convert.ToDecimal(txtFiyat.Text)));
+            ub.Duzenle(new Urun(txtBarkod.Text.ToString(), txtAdi.Text.ToString(), Convert.ToDecimal(txtFiyat.Text)));
             stomasyonurunlerList.DataSource = ub.Listele();
         }
 
@@ -107,10 +109,15 @@ namespace _PresentationLayer
 
         private void btnEksilt_Click(object sender, EventArgs e)
         {
-            ub.StokEksilt(new Urun(txtBarkod.Text));
+            StokEksilt se = new StokEksilt();
+            se.barkod = txtBarkod.Text;
+            se.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
             stomasyonurunlerList.DataSource = ub.Listele();
-            int stok = Convert.ToInt32(txtStok.Text) - 1;
-            txtStok.Text = stok.ToString();
         }
     }
 }

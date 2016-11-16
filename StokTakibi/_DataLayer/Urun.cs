@@ -17,6 +17,11 @@ namespace _DataLayer
             this.U_StokAdet = U_StokAdet;
         }
 
+        public Urun(string U_Barkod, int U_Adet)
+        {
+            this.U_Barkod = U_Barkod;
+            this.U_Adet = U_Adet;
+        }
         public Urun(string U_Barkod, string U_Adi, decimal U_Fiyat)
         {
             this.U_Barkod = U_Barkod;
@@ -30,8 +35,9 @@ namespace _DataLayer
         }
 
         public string U_Adi { get; set; }
-        public string  U_Barkod { get; set; }
+        public string U_Barkod { get; set; }
         public decimal U_Fiyat { get; set; }
         public int U_StokAdet { get; set; }
+        public int U_Adet { get; set; }
     }
 }

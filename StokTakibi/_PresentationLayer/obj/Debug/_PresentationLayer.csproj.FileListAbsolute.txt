@@ -23,3 +23,10 @@ C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_DataLayer.pdb
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Kullanicilar.resources
 C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.Urunler.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.StokEkle.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.StokEksilt.resources
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_PresentationLayer.exe.manifest
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\bin\Debug\_PresentationLayer.application
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.TrustInfo.xml
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.exe.manifest
+C:\Users\Baran\Desktop\Vizemiz\StokTakibiVize\StokTakibi\_PresentationLayer\obj\Debug\_PresentationLayer.application

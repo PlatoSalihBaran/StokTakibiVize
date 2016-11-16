@@ -40,17 +40,17 @@
             this.btnArttir = new System.Windows.Forms.Button();
             this.btnEksilt = new System.Windows.Forms.Button();
             this.stomasyonurunlerList = new System.Windows.Forms.DataGridView();
+            this.UrunlerLabel = new System.Windows.Forms.GroupBox();
+            this.txtBarkod = new System.Windows.Forms.MaskedTextBox();
+            this.txtStok = new System.Windows.Forms.MaskedTextBox();
+            this.txtFiyat = new System.Windows.Forms.MaskedTextBox();
+            this.btnYeni = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.U_Adi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_Barkod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_StokAdet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UrunlerLabel = new System.Windows.Forms.GroupBox();
-            this.txtBarkod = new System.Windows.Forms.MaskedTextBox();
-            this.txtStok = new System.Windows.Forms.MaskedTextBox();
-            this.txtFiyat = new System.Windows.Forms.MaskedTextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btnYeni = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.stomasyonurunlerList)).BeginInit();
             this.UrunlerLabel.SuspendLayout();
             this.SuspendLayout();
@@ -176,9 +176,64 @@
             this.stomasyonurunlerList.Margin = new System.Windows.Forms.Padding(4);
             this.stomasyonurunlerList.Name = "stomasyonurunlerList";
             this.stomasyonurunlerList.ReadOnly = true;
-            this.stomasyonurunlerList.Size = new System.Drawing.Size(1067, 514);
+            this.stomasyonurunlerList.Size = new System.Drawing.Size(904, 257);
             this.stomasyonurunlerList.TabIndex = 1;
             this.stomasyonurunlerList.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.stomasyonurunlerList_CellMouseDoubleClick);
+            // 
+            // UrunlerLabel
+            // 
+            this.UrunlerLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.UrunlerLabel.Controls.Add(this.stomasyonurunlerList);
+            this.UrunlerLabel.Location = new System.Drawing.Point(4, 105);
+            this.UrunlerLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.UrunlerLabel.Name = "UrunlerLabel";
+            this.UrunlerLabel.Padding = new System.Windows.Forms.Padding(4);
+            this.UrunlerLabel.Size = new System.Drawing.Size(904, 285);
+            this.UrunlerLabel.TabIndex = 6;
+            this.UrunlerLabel.TabStop = false;
+            this.UrunlerLabel.Text = "ÜRÜNLER";
+            // 
+            // txtBarkod
+            // 
+            this.txtBarkod.Location = new System.Drawing.Point(121, 20);
+            this.txtBarkod.Mask = "00000000";
+            this.txtBarkod.Name = "txtBarkod";
+            this.txtBarkod.Size = new System.Drawing.Size(132, 23);
+            this.txtBarkod.TabIndex = 11;
+            // 
+            // txtStok
+            // 
+            this.txtStok.Location = new System.Drawing.Point(391, 57);
+            this.txtStok.Mask = "00000";
+            this.txtStok.Name = "txtStok";
+            this.txtStok.Size = new System.Drawing.Size(132, 23);
+            this.txtStok.TabIndex = 12;
+            this.txtStok.ValidatingType = typeof(int);
+            // 
+            // txtFiyat
+            // 
+            this.txtFiyat.Location = new System.Drawing.Point(391, 20);
+            this.txtFiyat.Mask = "00000000";
+            this.txtFiyat.Name = "txtFiyat";
+            this.txtFiyat.Size = new System.Drawing.Size(132, 23);
+            this.txtFiyat.TabIndex = 13;
+            // 
+            // btnYeni
+            // 
+            this.btnYeni.Location = new System.Drawing.Point(830, 12);
+            this.btnYeni.Name = "btnYeni";
+            this.btnYeni.Size = new System.Drawing.Size(75, 86);
+            this.btnYeni.TabIndex = 10;
+            this.btnYeni.Text = "YENİ EKLE";
+            this.btnYeni.UseVisualStyleBackColor = true;
+            this.btnYeni.Visible = false;
+            this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // U_Adi
             // 
@@ -216,67 +271,11 @@
             this.U_ID.ReadOnly = true;
             this.U_ID.Visible = false;
             // 
-            // UrunlerLabel
-            // 
-            this.UrunlerLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.UrunlerLabel.Controls.Add(this.stomasyonurunlerList);
-            this.UrunlerLabel.Location = new System.Drawing.Point(4, 105);
-            this.UrunlerLabel.Margin = new System.Windows.Forms.Padding(4);
-            this.UrunlerLabel.Name = "UrunlerLabel";
-            this.UrunlerLabel.Padding = new System.Windows.Forms.Padding(4);
-            this.UrunlerLabel.Size = new System.Drawing.Size(1067, 542);
-            this.UrunlerLabel.TabIndex = 6;
-            this.UrunlerLabel.TabStop = false;
-            this.UrunlerLabel.Text = "ÜRÜNLER";
-            // 
-            // txtBarkod
-            // 
-            this.txtBarkod.Location = new System.Drawing.Point(121, 20);
-            this.txtBarkod.Mask = "00000000";
-            this.txtBarkod.Name = "txtBarkod";
-            this.txtBarkod.Size = new System.Drawing.Size(132, 23);
-            this.txtBarkod.TabIndex = 11;
-            // 
-            // txtStok
-            // 
-            this.txtStok.Location = new System.Drawing.Point(391, 57);
-            this.txtStok.Mask = "00000";
-            this.txtStok.Name = "txtStok";
-            this.txtStok.Size = new System.Drawing.Size(132, 23);
-            this.txtStok.TabIndex = 12;
-            this.txtStok.ValidatingType = typeof(int);
-            // 
-            // txtFiyat
-            // 
-            this.txtFiyat.Location = new System.Drawing.Point(391, 20);
-            this.txtFiyat.Mask = "00000000";
-            this.txtFiyat.Name = "txtFiyat";
-            this.txtFiyat.Size = new System.Drawing.Size(132, 23);
-            this.txtFiyat.TabIndex = 13;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // btnYeni
-            // 
-            this.btnYeni.Location = new System.Drawing.Point(830, 12);
-            this.btnYeni.Name = "btnYeni";
-            this.btnYeni.Size = new System.Drawing.Size(75, 86);
-            this.btnYeni.TabIndex = 10;
-            this.btnYeni.Text = "YENİ EKLE";
-            this.btnYeni.UseVisualStyleBackColor = true;
-            this.btnYeni.Visible = false;
-            this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
-            // 
             // Urunler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1076, 651);
+            this.ClientSize = new System.Drawing.Size(913, 394);
             this.Controls.Add(this.txtFiyat);
             this.Controls.Add(this.txtStok);
             this.Controls.Add(this.txtBarkod);
@@ -296,6 +295,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Urunler";
             this.Text = "Urunler";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Urunler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.stomasyonurunlerList)).EndInit();
             this.UrunlerLabel.ResumeLayout(false);
@@ -316,16 +316,16 @@
         private System.Windows.Forms.Button btnArttir;
         private System.Windows.Forms.Button btnEksilt;
         private System.Windows.Forms.DataGridView stomasyonurunlerList;
+        private System.Windows.Forms.GroupBox UrunlerLabel;
+        private System.Windows.Forms.MaskedTextBox txtBarkod;
+        private System.Windows.Forms.MaskedTextBox txtStok;
+        private System.Windows.Forms.MaskedTextBox txtFiyat;
+        private System.Windows.Forms.Button btnYeni;
+        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Adi;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Barkod;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Fiyat;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_StokAdet;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_ID;
-        private System.Windows.Forms.GroupBox UrunlerLabel;
-        private System.Windows.Forms.MaskedTextBox txtBarkod;
-        private System.Windows.Forms.MaskedTextBox txtStok;
-        private System.Windows.Forms.MaskedTextBox txtFiyat;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Button btnYeni;
     }
 }

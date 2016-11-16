@@ -30,12 +30,13 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.stomasyonhomeList = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.U_Barkod = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.U_Adet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_Adi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_StokAdet = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.stomasyonhomeList)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,6 +60,7 @@
             this.stomasyonhomeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.stomasyonhomeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.U_Barkod,
+            this.U_Adet,
             this.U_ID,
             this.U_Adi,
             this.U_Fiyat,
@@ -68,11 +70,31 @@
             this.stomasyonhomeList.Size = new System.Drawing.Size(800, 418);
             this.stomasyonhomeList.TabIndex = 1;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.stomasyonhomeList);
+            this.groupBox1.Location = new System.Drawing.Point(4, 84);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(800, 440);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "SON EKLENEN ÜRÜNLER";
+            // 
             // U_Barkod
             // 
             this.U_Barkod.DataPropertyName = "U_Barkod";
             this.U_Barkod.HeaderText = "ÜRÜN BARKODU";
             this.U_Barkod.Name = "U_Barkod";
+            // 
+            // U_Adet
+            // 
+            this.U_Adet.DataPropertyName = "U_Adet";
+            this.U_Adet.HeaderText = "U_Adet";
+            this.U_Adet.Name = "U_Adet";
+            this.U_Adet.Visible = false;
             // 
             // U_ID
             // 
@@ -99,19 +121,6 @@
             this.U_StokAdet.HeaderText = "ÜRÜN STOĞU";
             this.U_StokAdet.Name = "U_StokAdet";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.stomasyonhomeList);
-            this.groupBox1.Location = new System.Drawing.Point(4, 84);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 440);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "SON EKLENEN ÜRÜNLER";
-            // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -123,6 +132,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "HomeForm";
             this.Text = "Stomasyon";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.HomeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.stomasyonhomeList)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -136,6 +146,7 @@
         private System.Windows.Forms.DataGridView stomasyonhomeList;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Barkod;
+        private System.Windows.Forms.DataGridViewTextBoxColumn U_Adet;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Adi;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_Fiyat;

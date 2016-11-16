@@ -38,6 +38,26 @@ namespace _BusinessLayer
             cb.CloseConnection();
         }
 
+        public void StokEkle(Urun u)
+        {
+            SqlCommand cmd = new SqlCommand("sp_StockAdd", cb.OpenConnection());
+            cmd.CommandType=CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@U_Barkod", u.U_Barkod);
+            cmd.Parameters.AddWithValue("@U_StokAdet", u.U_Adet);
+            cmd.ExecuteNonQuery();
+            cb.CloseConnection();
+        }
+
+        public void StokSil(Urun u)
+        {
+            SqlCommand cmd = new SqlCommand("sp_StockDelete", cb.OpenConnection());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@U_Barkod", u.U_Barkod);
+            cmd.Parameters.AddWithValue("@U_StokAdet", u.U_Adet);
+            cmd.ExecuteNonQuery();
+            cb.CloseConnection();
+        }
+
         public void StokArttir(Urun u)
         {
             SqlCommand cmd = new SqlCommand("sp_ProductStockUp", cb.OpenConnection());
